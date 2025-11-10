@@ -1,6 +1,6 @@
 module.exports = {
     timetable:[],
-    // Explain what function A does
+    // This allow user to enter the details of the scheduled classes
     scheduleClass(module,day,location,hours) {
         this.timetable.push({
             module: module,
@@ -10,15 +10,8 @@ module.exports = {
         });
     },
     // Explain what function B does
-    addTutor(moduleName, tutorName) {
-        const record = this.timetable.find(item => item.module === moduleName);
+    addTutor(modName, tutorName) {
         
-        if (record) {
-            record.tutor = tutorName;
-            console.log(`Tutor '${tutorName}' added to module '${moduleName}'.`);
-        } else {
-            console.log(`Module '${moduleName}' not found.`);
-        }
     }
     // Explain what function C does
     updateTimetable() {
@@ -28,7 +21,7 @@ module.exports = {
     getTimetable() {
         return this.timetable;
     }
-    // Explain what function D does
+    // Explain what function E does
     getTotalHrs(moduleName) {
         
     }
