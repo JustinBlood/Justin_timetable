@@ -7,7 +7,7 @@ module.exports = {
             day: day,
             location: location,
             start: start,
-            end, end,
+            end: end,
             hours: hours
         });
     },
