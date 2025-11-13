@@ -34,7 +34,7 @@ module.exports = {
         if (newEnd != '') {
             result.end = newEnd;
         }
-        if (newHrs != '') {
+        if (newHrs != null) {
             result.hours = newHrs;
         }
     },
