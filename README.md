@@ -8,6 +8,18 @@ You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live 
 
 For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
+# Instruction
+
+-1 Function: timetable.scheduleClass() -> Enter the ModuleCode, Weekday, BlockLocation, startTime, endTime, hours for it's parameter
+
+-2 Function: timetable.addTutor() -> Enter the moduleCode, tutorName in the parameter this way it will find the specific module and add the tutor name for that module
+
+-3 Function: Edit the object through index for example -> timetable.updateTimetable(1, '', '', 'S.505', '', '',);
+
+-4 Function: timetable.getTimetable() -> Gets all the modules schedule
+
+-5 Function: timetable.getTotalHrs() -> Enter moduleCode in the parameter and it will total up the hrs for that module if you have more of the same module in different weekdays
+
 # References
 Provide the references that you have used to support your assignment. 
 -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
